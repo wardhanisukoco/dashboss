@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+
+@import "bootswatch/dist/quartz/variables";
+@import "bootstrap/scss/bootstrap";
+@import "bootswatch/dist/quartz/bootswatch";
+@import "vue3-easy-data-table/dist/style.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+:root {
+    --easy-table-body-row-background-color: #ffffffaa;
+    --easy-table-footer-background-color: #ffffffaa;
+    --easy-table-header-background-color: #ffffff88;
+}
+.font-sans {
+    font-family: Jost, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    font-weight: 900;
+}
+.vue3-easy-data-table {
+    border-radius: 0.2rem;
+}
+// .vue3-easy-data-table__main {
+//     background-color: inherit !important;
+// }
